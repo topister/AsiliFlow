@@ -1,0 +1,42 @@
+.products-section {
+    padding: 20px;
+    padding-bottom: 0px;
+    margin: 20px;
+    background: #f8f9fa;
+  }
+  
+  .product-card {
+    position: relative;
+    border: none;
+    overflow: hidden;
+    border-radius: 12px;
+  }
+  
+  .card-bg-img {
+    height: 250px;
+    object-fit: cover;
+    filter: brightness(0.7);
+  }
+  
+  .product-btn {
+    position: absolute;
+    bottom: 20px;
+    background: #fff;
+    color: #333;
+    font-weight: bold;
+    padding: 12px 20px;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .product-btn:hover {
+    background: #B88630 !important;
+    color: #fff;
+  }
+
+.card-row{
+    display: flex;
+    justify-content: space-around;
+}
+
+

@@ -1,0 +1,7 @@
+.navbar-brand img {
+    height: 50px; /* Adjust as needed */
+    width: auto;
+  }
+  .navbar {
+    background-color: #156F3E !important;
+  }  
