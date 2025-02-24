@@ -41,7 +41,7 @@ const FAQ = () => {
   return (
     <section className="faq-section">
       <Container>
-        <h2 className="section-title">Frequently Asked Questions</h2>
+        <h2 className="section-title">FAQs</h2>
         <Row className="justify-content-center">
           <Col md={8}>
             <div className="faq-container">
