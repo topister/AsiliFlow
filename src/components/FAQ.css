@@ -1,12 +1,13 @@
 .faq-section {
     padding: 60px 0;
     background: #f8f9fa;
-    text-align: center;
+    /* text-align: center; */
   }
   
   .section-title {
     font-size: 28px;
     font-weight: bold;
+    text-align: center;
     color: #333;
     margin-bottom: 30px;
   }
