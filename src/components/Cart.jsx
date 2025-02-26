@@ -65,7 +65,7 @@ const Cart = () => {
               </ListGroup.Item>
             ))}
           </ListGroup>
-          <h4 className="text-end mt-3">Total: ${getTotalPrice()}</h4>
+          <h4 className="text-end mt-3">Total: ksh.{getTotalPrice()}</h4>
         </>
       )}
     </Container>

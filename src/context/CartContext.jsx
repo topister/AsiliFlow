@@ -47,7 +47,7 @@ export const CartProvider = ({ children }) => {
     return cart
       .reduce(
         (total, item) =>
-          total + item.quantity * parseFloat(item.price.slice(1)),
+          total + item.quantity * parseFloat(item.price.slice(4)),
         0
       )
       .toFixed(2);
@@ -69,7 +69,6 @@ export const CartProvider = ({ children }) => {
   );
 };
 
-// ✅ Add PropTypes validation
 CartProvider.propTypes = {
   children: PropTypes.node.isRequired,
 };

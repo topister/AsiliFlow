@@ -7,9 +7,19 @@ import pad from "../assets/SanitaryPacks/1.png";
 import tampon from "../assets/SanitaryPacks/2.png";
 
 const products = [
-  { id: 1, name: "Eco-Friendly Pads", price: "$12.99", images: [pad, tampon] },
-  { id: 2, name: "Organic Tampons", price: "$14.99", images: [pad, tampon] },
-  { id: 3, name: "Menstrual Cup", price: "$19.99", images: [pad, tampon] },
+  {
+    id: 1,
+    name: "Eco-Friendly Pads",
+    price: "ksh.50.00",
+    images: [pad, tampon],
+  },
+  {
+    id: 2,
+    name: "Organic Tampons",
+    price: "ksh.65.00",
+    images: [pad, tampon],
+  },
+  { id: 3, name: "Menstrual Cup", price: "ksh.75.00", images: [pad, tampon] },
 ];
 
 const Shop = () => {

@@ -9,7 +9,7 @@ const products = [
   {
     id: 1,
     name: "Eco-Friendly Pads",
-    price: "$12.99",
+    price: "ksh.50.00",
     images: [pad, tampon, pad],
     description:
       "High-quality, eco-friendly pads designed for comfort and sustainability.",
@@ -17,7 +17,7 @@ const products = [
   {
     id: 2,
     name: "Organic Tampons",
-    price: "$14.99",
+    price: "ksh.65.00",
     images: [pad, tampon, pad],
     description:
       "Made with 100% organic cotton, providing superior absorbency and protection.",
@@ -25,7 +25,7 @@ const products = [
   {
     id: 3,
     name: "Menstrual Cup",
-    price: "$19.99",
+    price: "ksh.75.00",
     images: [pad, tampon, pad],
     description:
       "A reusable menstrual cup made from medical-grade silicone for long-lasting comfort.",
