@@ -11,7 +11,7 @@ const Cart = () => {
       <h2 className="text-center fw-bold">Your Cart</h2>
       {cart.length === 0 ? (
         <p className="text-center">
-          Your cart is empty. <Link to="/">Shop now</Link>
+          Your cart is empty. <Link to="/shop">Shop now</Link>
         </p>
       ) : (
         <ListGroup>
