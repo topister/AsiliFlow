@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
-import { useState } from "react";
+import { useState, useContext } from "react";
+import CartContext from "../context/CartContext";
 import pad from "../assets/SanitaryPacks/1.png";
 import tampon from "../assets/SanitaryPacks/2.png";
 
@@ -34,8 +35,8 @@ const products = [
 const ProductDetails = () => {
   const { id } = useParams();
   const product = products.find((p) => p.id === parseInt(id));
-
-  const [selectedImage, setSelectedImage] = useState(product.images[0]);
+  const [selectedImage, setSelectedImage] = useState(product?.images[0]);
+  const { addToCart } = useContext(CartContext);
 
   if (!product) {
     return <h2 className="text-center">Product Not Found</h2>;
@@ -70,7 +71,9 @@ const ProductDetails = () => {
           <h2>{product.name}</h2>
           <h4 className="text-primary">{product.price}</h4>
           <p>{product.description}</p>
-          <Button variant="primary">Add to Cart</Button>
+          <Button variant="primary" onClick={() => addToCart(product)}>
+            Add to Cart
+          </Button>
         </Col>
       </Row>
     </Container>
