@@ -4,7 +4,6 @@ import FeaturedProducts from "./FeaturedProducts";
 import OurOffer from "./OurOffer";
 import TestimonialSection from "./TestimonialSection";
 import FAQ from "./FAQ";
-import Footer from "./Footer";
 
 const Home = () => {
   return (
@@ -16,7 +15,6 @@ const Home = () => {
       <OurOffer />
       <TestimonialSection />
       <FAQ />
-      <Footer />
     </>
   );
 };
